@@ -4,7 +4,7 @@ title: LLM-Wiki 操作日志
 status: stable
 created: 2026-04-24
 updated: 2026-04-24
-last_batch: 2026-04-24-batch1
+last_batch: 2026-04-24-batch8
 tags: [wiki, log, llm-wiki, append-only]
 ---
 
@@ -153,3 +153,85 @@ tags: [wiki, log, llm-wiki, append-only]
   - [[GTD-getting-things-done]]（stable）
 - 更新 wiki 页：
   - [[index]]（追加 1 条）
+
+## [2026-04-24] ingest | Batch 1 — AI 工程核心概念
+
+- source:
+  - [[../raw/2026-04-24-karpathy-software-2-0]]（⚠️ reconstruction: true）
+  - [[../raw/2026-04-24-lewis-rag-paper]]
+  - [[../raw/2026-04-24-pinecone-vector-database]]
+  - [[../raw/2026-04-24-openai-embeddings-guide]]（⚠️ reconstruction: true）
+  - [[../raw/2026-04-24-openai-prompt-engineering]]（⚠️ reconstruction: true）
+  - [[../raw/2026-04-24-anthropic-building-effective-agents]]
+- agent: Cascade
+- 新增 wiki 页：
+  - [[software-2-0]]（stable）
+  - [[RAG-retrieval-augmented-generation]]（stable）
+  - [[vector-database]]（stable）
+  - [[embedding]]（stable）
+  - [[prompt-engineering]]（stable）
+  - [[AI-agent-architecture]]（stable）
+  - [[workflow-vs-agent]]（stable）
+  - [[prompt-chaining]]（stable）
+  - [[evaluator-optimizer]]（stable）
+  - [[augmented-LLM]]（stable）
+- 更新 wiki 页：
+  - [[index]]（追加 10 条）
+
+## [2026-04-24] ingest | Batch 2 — 知识管理方法论补全
+
+- source:
+  - [[../raw/2026-04-24-niklas-luhmann-slip-boxes]]
+  - [[../raw/2026-04-24-soenke-ahrens-smart-notes]]（⚠️ reconstruction: true）
+  - [[../raw/2026-04-24-harold-jarche-pkm]]
+  - [[../raw/2026-04-24-harold-jarche-manual-sensemaking]]
+  - [[../raw/2026-04-24-supermemo-spaced-repetition]]
+  - [[../raw/2026-04-24-cynefin-framework]]
+- agent: Cascade
+- 新增 wiki 页：
+  - [[niklas-luhmann]]（stable）
+  - [[how-to-take-smart-notes]]（stable）
+  - [[PKM-personal-knowledge-mastery]]（stable）
+  - [[sense-making]]（stable）
+  - [[spaced-repetition]]（stable）
+  - [[literature-notes]]（stable）
+- 更新 wiki 页：
+  - [[index]]（追加 6 条）
+
+## [2026-04-24] ingest | Batch 3 — 工具生态
+
+- source:
+  - [[../raw/2026-04-24-dataview-docs]]（⚠️ reconstruction: true）
+  - [[../raw/2026-04-24-templater-docs]]（⚠️ reconstruction: true）
+  - [[../raw/2026-04-24-quartz-docs]]
+  - [[../raw/2026-04-24-logseq-vs-obsidian]]（⚠️ reconstruction: true）
+  - [[../raw/2026-04-24-notion-vs-obsidian]]（⚠️ reconstruction: true）
+  - [[../raw/2026-04-24-notion-docs]]（⚠️ reconstruction: true）
+- agent: Cascade
+- 新增 wiki 页：
+  - [[dataview-obsidian]]（stable）
+  - [[dataviewjs]]（stable）
+  - [[templater-obsidian]]（stable）
+  - [[quartz-static-site]]（stable）
+  - [[logseq]]（stable）
+  - [[notion]]（stable）
+- 更新 wiki 页：
+  - [[index]]（追加 6 条）
+
+## [2026-04-24] ingest | Batch 4 — 前沿趋势
+
+- source:
+  - [[../raw/2026-04-24-mcp-intro]]
+  - [[../raw/2026-04-24-openai-agents-sdk]]（⚠️ reconstruction: true）
+  - [[../raw/2026-04-24-llm-as-judge]]（⚠️ reconstruction: true）
+  - [[../raw/2026-04-24-coding-agent-ecosystem]]（⚠️ reconstruction: true）
+  - [[../raw/2026-04-24-ai-native-note-taking]]（⚠️ reconstruction: true）
+- agent: Cascade
+- 新增 wiki 页：
+  - [[MCP-model-context-protocol]]（stable）
+  - [[openai-agents-sdk]]（stable）
+  - [[LLM-as-judge]]（stable）
+  - [[coding-agent-ecosystem]]（stable）
+  - [[AI-native-note-taking]]（stable）
+- 更新 wiki 页：
+  - [[index]]（追加 5 条）

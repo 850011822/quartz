@@ -14,6 +14,7 @@ $PublishSources = @(
     @{ Src = "01-Projects\AI-Knowledge-System\README.md"; Dest = "ai-knowledge-system\index.md"; Recurse = $false }
     @{ Src = "01-Projects\AI-Knowledge-System\PROJECT_INDEX.md"; Dest = "ai-knowledge-system\PROJECT_INDEX.md"; Recurse = $false }
     @{ Src = "01-Projects\AI-Knowledge-System\元工程框架v2.md"; Dest = "ai-knowledge-system\元工程框架v2.md"; Recurse = $false }
+    @{ Src = "05-Outputs\publish"; Dest = ""; Recurse = $true }
 )
 
 function Test-PublishAllowed {
